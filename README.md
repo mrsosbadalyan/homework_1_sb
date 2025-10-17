@@ -1,16 +1,14 @@
-# homework_1_sb
+﻿# homework_1_SB
 
-A new Flutter project.
+As I submitted the homework late, I have done in it app format with dart, small navigation part and the functional almost same, 
 
-## Getting Started
+Flutter app with two tabs:
 
-This project is a starting point for a Flutter application.
+- **Number → Words:** converts 0..99,999,999 to long-form English (optional hyphenation)
+--- Here are added examples for fast checking, but you can also use the bar for typing and validating the code
+- **Nested Sum:** editable JSON input; sums using Dart 3 pattern matching
+--- Here is added the initial example, but you can add numbers, strings in " or ', arrays and so on for validating the code
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## You can just run
+flutter pub get
+flutter run
